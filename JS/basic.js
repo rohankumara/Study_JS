@@ -100,20 +100,20 @@
 // }
 
 
-var score  = Number(prompt("Enter Your Score : "))
-var passMark = (x) => {
-    if(x<35){
-        mark = "F"
-    }else if(35<=x&x<45){
-        mark = "S"
-    }else if(45<=x&x<65){
-        mark = "C"
-    }else if(65<=x&x<75){
-        mark = "B"
-    }else if(75<=x&x<=100){
-        mark = "A"
-    }else mark = "Invalid Input"
+// var score  = Number(prompt("Enter Your Score : "))
+// var passMark = (x) => {
+//     if(x<35){
+//         mark = "F"
+//     }else if(35<=x&x<45){
+//         mark = "S"
+//     }else if(45<=x&x<65){
+//         mark = "C"
+//     }else if(65<=x&x<75){
+//         mark = "B"
+//     }else if(75<=x&x<=100){
+//         mark = "A"
+//     }else mark = "Invalid Input"
 
-    document.write(`Your Pass Mark Is ${mark}`)
-}
-passMark(score)
+//     document.write(`Your Pass Mark Is ${mark}`)
+// }
+// passMark(score)
