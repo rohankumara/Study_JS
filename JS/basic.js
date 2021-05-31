@@ -84,20 +84,36 @@
 // }
 
 // if else
-var x = 5;
-var y = 3;
+// var x = 5;
+// var y = 3;
 
 
-if (x<y) {
-    console.log("X")}
-else{
-    console.log("Y")}
+// if (x<y) {
+//     console.log("X")}
+// else{
+//     console.log("Y")}
 
-if (m<35) {
-    console.log("Fail")
-}else if(m<45){
-    console.log("C")
+// if (m<35) {
+//     console.log("Fail")
+// }else if(m<45){
+//     console.log("C")
+// }
+
+
+var score  = Number(prompt("Enter Your Score : "))
+var passMark = (x) => {
+    if(x<35){
+        mark = "F"
+    }else if(35<=x<45){
+        mark = "S"
+    }else if(45<=x<65){
+        mark = "C"
+    }else if(65<=x<75){
+        mark = "B"
+    }else if(75<=x<100){
+        mark = "A"
+    }else "Invalid Input";
+
+    document.write(`Your Pass Mark Is ${mark}`)
 }
-
-
 
