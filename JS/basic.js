@@ -135,3 +135,14 @@
 //     }
 //     console.log(x);
 // }
+
+//Synchronus Programming
+
+console.log("Start");
+
+function addNumbers() {
+    console.log("I can Add Numbers")
+}
+addNumbers()
+
+console.log("End");
