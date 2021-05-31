@@ -127,3 +127,11 @@ var x = 1;
 //         continue;
 //     }
 // }while(x<10)
+
+for (x; x<10; x++){
+    
+    if (x==5){
+        continue;
+    }
+    console.log(x);
+}
