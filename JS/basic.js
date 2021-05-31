@@ -119,19 +119,19 @@
 // passMark(score)
 
 
-var x = 1;
+// var x = 1;
 
-// do{console.log(`Menn Meka weda karanooo ${x}`);x++;
-//     if(x==7){
-//         console.log("Dn Bake gahanai Hadanne");
+// // do{console.log(`Menn Meka weda karanooo ${x}`);x++;
+// //     if(x==7){
+// //         console.log("Dn Bake gahanai Hadanne");
+// //         continue;
+// //     }
+// // }while(x<10)
+
+// for (x; x<10; x++){
+    
+//     if (x==5){
 //         continue;
 //     }
-// }while(x<10)
-
-for (x; x<10; x++){
-    
-    if (x==5){
-        continue;
-    }
-    console.log(x);
-}
+//     console.log(x);
+// }
