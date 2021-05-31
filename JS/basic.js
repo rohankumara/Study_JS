@@ -124,6 +124,6 @@ var x = 1;
 do{console.log(`Menn Meka weda karanooo ${x}`);x++;
     if(x==7){
         console.log("Dn Bake gahanai Hadanne");
-        break;
+        continue;
     }
 }while(x<10)
