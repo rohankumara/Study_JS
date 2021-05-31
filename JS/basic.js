@@ -121,9 +121,9 @@
 
 var x = 1;
 
-do{console.log(`Menn Meka weda karanooo ${x}`);x++;
-    if(x==7){
-        console.log("Dn Bake gahanai Hadanne");
-        continue;
-    }
-}while(x<10)
+// do{console.log(`Menn Meka weda karanooo ${x}`);x++;
+//     if(x==7){
+//         console.log("Dn Bake gahanai Hadanne");
+//         continue;
+//     }
+// }while(x<10)
